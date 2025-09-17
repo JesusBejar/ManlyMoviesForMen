@@ -17,7 +17,6 @@
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/scopedcss/bundle/ManlyMoviesForMen.styles.css
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/scopedcss/projectbundle/ManlyMoviesForMen.bundle.scp.css
-/Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/compressed/59mc56s023-b9sayid5wm.gz
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/compressed/xv4f7fbul7-61n19gt1b8.gz
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/compressed/ign5aq7d7p-xtxxf3hu2r.gz
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/compressed/itgd8y1ovq-bqjiyaj88i.gz
@@ -364,3 +363,4 @@
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/ManlyMoviesForMen.csproj.AssemblyReference.cache
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/ManlyMov.09223465.Up2Date
 /Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/ManlyMoviesForMen.sourcelink.json
+/Users/admin/Documents/ManlyMoviesForMen/obj/Debug/net9.0/compressed/59mc56s023-onfjzu7fwu.gz

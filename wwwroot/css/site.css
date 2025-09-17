@@ -29,3 +29,72 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+/* Custom form element styling for better spacing */
+input[type="text"], 
+input[type="number"], 
+input[type="email"], 
+input[type="password"], 
+input[type="search"], 
+input[type="url"], 
+input[type="tel"], 
+input[type="date"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="time"], 
+select, 
+textarea {
+  padding: 8px 12px !important;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="text"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus, 
+input[type="search"]:focus, 
+input[type="url"]:focus, 
+input[type="tel"]:focus, 
+input[type="date"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="month"]:focus, 
+input[type="week"]:focus, 
+input[type="time"]:focus, 
+select:focus, 
+textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Add some spacing between form elements */
+form p label {
+  margin-right: 15px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+form p {
+  margin-bottom: 15px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
