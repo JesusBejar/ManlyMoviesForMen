@@ -56,6 +56,7 @@ public static class SeedData
                     Rating = "R"
 
                 },
+                // Fav movies added below
                 // Favorite movie 1
                 new Movie
                 {
