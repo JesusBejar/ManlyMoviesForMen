@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManlyMoviesForMen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d33ff0937cf6a9e8f6b9065b5270b9ed7adec03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1ae1276dee02dcc37eb9c97e9ea71aa7ac9017")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManlyMoviesForMen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManlyMoviesForMen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

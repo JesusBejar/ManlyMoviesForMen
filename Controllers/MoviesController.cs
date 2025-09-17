@@ -20,7 +20,7 @@ namespace ManlyMoviesForMen.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index(string movieGenre, string searchString)
+        public async Task<IActionResult> Index(string movieGenre, string searchString, int? releaseYear)
         {
             if (_context.Movie == null)
             {
@@ -44,10 +44,18 @@ namespace ManlyMoviesForMen.Controllers
                 movies = movies.Where(x => x.Genre == movieGenre);
             }
 
+            if (releaseYear.HasValue)
+            {
+                movies = movies.Where(x => x.ReleaseDate.Year >= releaseYear.Value);
+            }
+
             var movieGenreVM = new MovieGenreViewModel
             {
                 Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                Movies = await movies.ToListAsync()
+                Movies = await movies.ToListAsync(),
+                MovieGenre = movieGenre,
+                SearchString = searchString,
+                ReleaseYear = releaseYear
             };
 
             return View(movieGenreVM);
